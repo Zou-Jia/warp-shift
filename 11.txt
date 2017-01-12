@@ -1,0 +1,12 @@
+	
+//		metrix[0*lenX + 0] = new Block(DoorType.closed, DoorType.red, DoorType.closed, DoorType.lilac, false, BlockFunction.openRedDoor, false);
+//		metrix[0*lenX + 1] = new Block(DoorType.closed, DoorType.closed, DoorType.closed, DoorType.closed, false, BlockFunction.nothing, false);
+//		metrix[0*lenX + 2] = new Block(DoorType.closed, DoorType.closed, DoorType.closed, DoorType.closed, false, BlockFunction.nothing, false);
+//		
+//		metrix[1*lenX + 0] = new Block(DoorType.closed, DoorType.yellow, DoorType.closed, DoorType.yellow, false, BlockFunction.nothing, false);
+//		metrix[1*lenX + 1] = new Block(DoorType.closed, DoorType.red, DoorType.yellow, DoorType.closed, false, BlockFunction.nothing, false);
+//		metrix[1*lenX + 2] = new Block(DoorType.closed, DoorType.closed, DoorType.closed, DoorType.closed, false, BlockFunction.nothing, false);
+//		
+//		metrix[2*lenX + 0] = new Block(DoorType.yellow, DoorType.closed, DoorType.closed, DoorType.yellow, false, BlockFunction.nothing, false);
+//		metrix[2*lenX + 1] = new Block(DoorType.yellow, DoorType.closed, DoorType.lilac, DoorType.yellow, false, BlockFunction.openGoal, false);
+//		metrix[2*lenX + 2] = new Block(DoorType.red, DoorType.closed, DoorType.closed, DoorType.closed, false, BlockFunction.nothing, true);
