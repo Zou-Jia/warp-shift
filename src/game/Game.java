@@ -70,7 +70,7 @@ public class Game{
 		metrix[3*lenX + 1] = new Block(DoorType.closed, DoorType.closed, DoorType.closed, DoorType.closed, false, BlockFunction.nothing, false);
 		metrix[3*lenX + 2] = new Block(DoorType.closed, DoorType.closed, DoorType.red, DoorType.closed, true, BlockFunction.nothing, false);
 	}
-
+//test diffs
 	public void setStageMovement(Stage stage){
 		stage.peopelMove = new Stack<Move>();
 
