@@ -9,6 +9,20 @@ enum DoorType {
 	int getInt(){
 		return nCode;
 	}
+	public String getText() {
+		switch (this) {
+		case closed:
+			return "O";
+		case lilac:
+			return "L";
+		case red:
+			return "R";
+		case yellow:
+			return "Y";
+		default:
+			return " ";			
+		}
+   }
 }
 
 enum BlockFunction {

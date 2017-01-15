@@ -1,7 +1,7 @@
 package game;
 
 enum Direction {
-	up(3), down(3), left(4), right(4);	
+	up(Game.lenX), down(Game.lenX), left(Game.lenY), right(Game.lenY);	
 	int nCode;
 	Direction(int _nCode) {
 		this.nCode = _nCode;
@@ -25,7 +25,9 @@ class Move{
 	
 	public String toString(){
 		if(isBlock){
-			return blockIndex + " " + dir + " ";
+			return "block "+blockIndex + " move " + dir + " ";
+		}else if (jump){
+			return "people jumped";
 		}else{
 			return "people " + dir;
 		}
